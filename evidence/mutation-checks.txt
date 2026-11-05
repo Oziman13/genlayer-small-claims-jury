@@ -1,0 +1,19 @@
+Small Claims Jury v0.1.0 -- mutation check, run on 2026-11-05 (UTC)
+python3 scripts/mutation_check.py
+
+base: tests pass on the unmodified contract
+SURVIVED: model answer cap
+SURVIVED: quote anchor spacing sensitive
+SURVIVED: parser: quote type unchecked
+SURVIVED: validator: state unchecked
+SURVIVED: validator: any winner
+SURVIVED: validator: result type unchecked
+SURVIVED: validator: size cap removed
+mutants: 116, killed: 109, survived: 7
+ - model answer cap
+ - quote anchor spacing sensitive
+ - parser: quote type unchecked
+ - validator: state unchecked
+ - validator: any winner
+ - validator: result type unchecked
+ - validator: size cap removed

@@ -1,0 +1,9 @@
+Small Claims Jury v0.1.0 -- local network tests (glsim, 5 validators, model mocked), run on 2026-11-05 (UTC)
+python3 -m pytest tests/glsim -v
+
+tests/glsim/test_small_claims_jury_network.py::test_a_case_from_claim_to_confirmed_ruling_through_five_validators PASSED [ 20%]
+tests/glsim/test_small_claims_jury_network.py::test_a_leaning_towards_the_first_statement_ends_undecided PASSED [ 40%]
+tests/glsim/test_small_claims_jury_network.py::test_a_quote_credited_to_the_wrong_statement_is_not_a_ruling PASSED [ 60%]
+tests/glsim/test_small_claims_jury_network.py::test_a_badly_formed_second_reading_changes_nothing PASSED [ 80%]
+tests/glsim/test_small_claims_jury_network.py::test_timing_and_roles_are_enforced PASSED [100%]
+============================== 5 passed in 8.39s ===============================
